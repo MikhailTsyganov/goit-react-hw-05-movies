@@ -1,0 +1,27 @@
+.list {
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 16px;
+  padding-top: 20px;
+}
+
+.listItem {
+  /* width: 200px; */
+  list-style: none;
+  text-align: center;
+}
+
+.listItem img {
+  height: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.listItem p {
+  margin: 10px 0 0;
+}
+
+.listItem p:last-child {
+  color: rgb(151, 151, 151);
+}

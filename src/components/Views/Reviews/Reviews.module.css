@@ -1,0 +1,11 @@
+.list {
+  list-style: none;
+}
+
+.author {
+  font-weight: bold;
+}
+
+.create {
+  color: rgb(151, 151, 151);
+}
